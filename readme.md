@@ -76,4 +76,3 @@ Replace `short-url` with the actual short URL you received after shortening.
 
 ---
 
-Feel free to customize this README based on the specifics of your application. Provide additional details as needed, such as how to run tests, configure environment variables, or any other relevant information for developers using your app.
