@@ -13,7 +13,6 @@ const app = express();
 app.use(
 	cors({
 		credentials: true,
-		origin: '*',
 		methods: 'GET, POST',
 	})
 );
@@ -23,6 +22,6 @@ app.use('/api', router);
 
 const server = http.createServer(app);
 connect_DB();
-server.listen(5427, () => {
-	console.log(`Server running on port ${5427}`);
+server.listen(3000, () => {
+	console.log(`Server running on port ${3000}`);
 });
