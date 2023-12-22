@@ -8,7 +8,7 @@ import { connect_DB } from './config/connect_db';
 import { config } from 'dotenv';
 
 config();
-const app = express();
+export const app = express();
 
 app.use(
 	cors({

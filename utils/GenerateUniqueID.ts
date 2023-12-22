@@ -7,5 +7,5 @@ export const generateUniqueID: () => string = () => {
 		() => characters[Math.floor(Math.random() * characters.length)]
 	);
 	const id = randomChars.join('');
-	return `SF-${id}`;
+	return `SF${id}`;
 };
