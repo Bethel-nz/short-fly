@@ -1,6 +1,4 @@
-Certainly! Below is a simple README for your Express app explaining how to run it using Yarn and providing examples using `curl` for each route with their respective parameters:
 
----
 
 # ShortFly URL Shortener
 
